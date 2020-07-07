@@ -24,9 +24,12 @@
     object-fit: cover;
 }
 
-.store_product-collection{
-    height: 500px;
-    width: auto;
+.store_product-collection{ 
+    height: 100%;
+    width: 100%;
+}
+
+.store_collection-card{
 }
 
 .product_summary-keys{
