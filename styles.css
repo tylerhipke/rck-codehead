@@ -1,5 +1,5 @@
 .nav-padding{
-    height: 6em;
+    height: 3.5em;
 }
 
 .bg-dark{
@@ -7,7 +7,6 @@
 }
 
 .home_hero-general{
-    background-color: #000000;
 }
 
 .home_content-block{
@@ -30,6 +29,10 @@
 .univ_content-hero{
     max-height: 200px;
     object-fit: cover;
+}
+
+.univ_hero-general{
+    height: 200px;
 }
 
 .store_product-collection{ 
