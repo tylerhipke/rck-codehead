@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RKC Sales Alliance</title>
+    <title>RK Medic Line</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -37,31 +37,32 @@
             </div>
         </nav> -->
 
-        <nav class="navbar navbar-light navbar-expand-sm justify-content-center fixed-top shadow text-light" style="background-color: #0b082e">
+        <nav class="navbar navbar-light navbar-expand-sm justify-content-center fixed-top shadow text-light"
+            style="background-color: #0b082e">
             <div class="d-flex w-100 mr-auto"></div>
-                <ul class="navbar-nav w-100 justify-content-center">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            <img src="./assets/graphics/logo.png" width="40" height="40" alt="">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <h6 class="" href="#" style="margin-top: 0.7em">RK Medic Line</h6>
-                        <h6 class="small" style="margin-bottom: 0.5em">Supply and Distribution</h6>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="./store.html">Our Products</a>
-                    </li>
-                </ul>
+            <ul class="navbar-nav w-100 justify-content-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <img src="./assets/graphics/logo.png" width="60" height="60" alt="">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <h5 class="" href="#" style="margin-top: 1em; margin-bottom: 0">RK Medic Line</h5>
+                    <h6 class="small" style="margin-bottom: 0.5em">Supply and Distribution</h6>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./store.html">Our Products</a>
+                </li>
+            </ul>
         </nav>
 
         <!-- header hero block -->
-        <div class="flex-container">
+        <div class="flex-container" id="pagestart">
             <div class="card border-0 rounded-0 home_hero-general">
                 <img src="./assets/images/home_2.png" alt="" class="card-img home_hero-img">
                 <div class="card-img-overlay">
@@ -180,7 +181,7 @@
                 </div>
             </div>
             <!-- content block "contact us" -->
-            <div class="container home_content-block" style="">
+            <div class="container home_content-block" style="padding-bottom: 0; margin-bottom: -1em">
                 <div class="row">
                     <div class="col-12 text-left">
                         <h1 class="">CONTACT US</h1>
@@ -195,7 +196,8 @@
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-12 text-left">
+                    <div class="col-12 text-left" style="margin-left: 15px;">
+                        <br>
                         <h5>4230 Boul. St-Jean Suite #200, Dollard-des-Ormeaux, Quebec, H9H 3X4</h5>
                         <br>
                         <h5><a href="#">info@ppedistribution.ca</a></h5>
@@ -203,6 +205,7 @@
                         <h5>(514) 664-4540</h5>
                         <h5>(800) 631-2924</h5>
                     </div>
+                    <br>
                 </div>
 
                 <form>
@@ -211,13 +214,11 @@
                             <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
                         </div>
                     </div>
-                    <br>
                     <div class="form-group">
                         <div class="form group col-md-4">
                             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                         </div>
                     </div>
-                    <br>
                     <div class="form-group">
                         <div class="form group col-md-4">
                             <textarea class="form-control" id="exampleInputMessage1" rows="6"
@@ -227,7 +228,7 @@
                         <div class="row">
                             <div class="col-md-4" class="justify-content-center">
                                 <div class="form-group" class="">
-                                    <button type="submit" class="btn btn-dark">Send</button>
+                                    <button type="submit" class="btn btn-dark" style="margin-left: 15px;">Send</button>
                                 </div>
                             </div>
                         </div>
@@ -246,7 +247,20 @@
                             <p>Supply Distribution and Management Services</p>
                         </div>
                     </div>
+                </footer>
+            </div>
+        </div>
     </main>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 
 </html>
