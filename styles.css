@@ -50,3 +50,15 @@ h6{
 .product_summary-keys{
     padding: 0px 15px;
 }
+
+@media (max-width: 580px){
+    #pagestart{
+        margin-top: 14.5em;
+    }
+}
+
+@media (min-width: 581px) {
+    #pagestart{
+        margin-top: 5.5em;
+    }
+}
