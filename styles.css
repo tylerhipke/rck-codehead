@@ -5,9 +5,34 @@ h6{
 .nav-padding{
     height: 3.5em;
 }
+p.rk{
+    font-size: x-large;
+}
+
+p.supply{
+    font-size: large;
+}
+
+.nav-item{
+    font-size: x-large;
+}
 
 .bg-dark{
     background-color: #070333;
+}
+.jumbotron{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
 }
 
 .home_hero-general{
@@ -19,6 +44,13 @@ h6{
 
 .home_innercontent-padding{
     padding: 20px 0px;
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 30px;
+}
+
+p{
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
 }
 
 .home_secondarybackground{
@@ -28,6 +60,13 @@ h6{
 .home_hero-img{
     max-height: 300px;
     object-fit: cover;
+}
+
+div.verified2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .univ_content-hero{
